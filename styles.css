@@ -360,6 +360,23 @@ header{
 
 
 /******************** Discover our menu ***********************/
+.image-group{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+}
 
-
+.discover-our-menu  .restaurant-description{
+    padding-top: 3rem;
+    margin-bottom: 0;
+}
 /******X************** Discover our menu ******************X*****/
+
+/******************** Perfect belnd ***********************/
+.perfect-blend{
+    background: url(./images/perfect-blend.jpg) center no-repeat;
+    background-size: cover;
+}
+
+ 
+/*********X*********** Perfect Blend *************X**********/
