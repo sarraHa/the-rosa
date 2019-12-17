@@ -32,6 +32,7 @@ body{
 
 
 section{
+    overflow: hidden;
     padding: 3.9rem 0;
 }
 
@@ -436,7 +437,7 @@ footer{
     animation: up 2s infinite;
 }
 .footer-content{
-
+    overflow: hidden;
 }
 
 .footer-content h4{
@@ -502,7 +503,8 @@ footer{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 20rem;
+    margin-left: rem;
+    margin-right: 0;
 }
 /*********X*********** Footer *************X**********/
 
@@ -510,6 +512,7 @@ footer{
 
 /************************* Media Queries************************ */
 @media screen and (min-width: 900px){
+    
     section{
         padding: 7.9rem;
     }
@@ -615,10 +618,25 @@ footer{
     }
 
     .newsletter-btn{
-        margin-left: 7.5rem;
+        margin-left: 4rem;
+    }
+   
+
+}
+
+@media screen and (max-width: 800px){
+
+    .newsletter-btn{
+        margin-left: 20rem;
     }
 }
 
+@media screen and (max-width: 450px){
+
+    .newsletter-btn{
+        margin-left: 15rem;
+    }
+}
 /*********X**************** Media Queries***********X************* */
 
 
